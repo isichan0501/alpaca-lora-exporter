@@ -9,8 +9,8 @@ import transformers
 from transformers.models.llama.tokenization_llama import LLaMATokenizer
 from transformers import AutoTokenizer, AutoConfig, LLaMAForCausalLM 
 
-BASE_MODEL = None
-LORA_MODEL = None
+BASE_MODEL = "decapoda-research/llama-7b-hf"
+LORA_MODEL = "kunishou/Japanese-Alpaca-LoRA-7b-v0"
 
 assert (
     BASE_MODEL
